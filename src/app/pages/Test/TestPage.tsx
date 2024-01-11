@@ -6,7 +6,7 @@ const TestPage = () => {
 		<div
 			className={styles.TestPage}
 			data-testid="testPage">
-			Test Works
+			Test Works 2
 		</div>
 	);
 };
