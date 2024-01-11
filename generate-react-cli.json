@@ -1,0 +1,69 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": true,
+  "cssPreprocessor": "scss",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "component": "templates/component/TemplateName.tsx",
+        "style": "templates/component/TemplateName.module.scss",
+        "test": "templates/component/TemplateName.test.tsx"
+      },
+      "path": "src/app/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "component": {
+      "customTemplates": {
+        "component": "templates/component/TemplateName.tsx",
+        "style": "templates/component/TemplateName.module.scss",
+        "test": "templates/component/TemplateName.test.tsx"
+      },
+      "path": "src/app/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "page": {
+      "customTemplates": {
+        "component": "templates/page/TemplateNamePage.tsx",
+        "style": "templates/page/TemplateNamePage.module.scss",
+        "lazy": "templates/page/TemplateNamePage.lazy.tsx",
+        "lazyTest": "templates/page/TemplateNamePage.lazy.test.tsx",
+        "test": "templates/page/TemplateNamePage.test.tsx"
+      },
+      "path": "src/app/pages",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": true,
+      "withLazyTest": true
+    },
+    "hook": {
+      "customTemplates": {
+        "component": "templates/other/useTemplateName.ts"
+      },
+      "path": "src/app/hooks",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "flat": true
+    },
+    "slice": {
+      "customTemplates": {
+        "component": "templates/other/TemplateName.slice.ts"
+      },
+      "path": "src/app/state/slices",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "flat": true
+    }
+  }
+}
