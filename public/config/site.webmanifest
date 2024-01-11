@@ -1,9 +1,10 @@
 {
-    "name": "React App",
-    "short_name": "React App",
+    "name": "No Service Games",
+    "short_name": "NoService",
     "icons": [
         {
             "src": "/config/favicon.png",
+            "sizes": "64x64",
             "type": "image/png"
         }
     ],
