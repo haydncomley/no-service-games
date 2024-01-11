@@ -12,8 +12,7 @@
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "build": "tsc && vite build",
-    "serve": "vite preview",
-    "preview": "npm run build && npm run serve",
+    "preview": "vite preview",
     "new": "cross-env npx generate-react component $npm_config_name --type=$npm_config_type"
   },
   "dependencies": {
@@ -64,10 +63,11 @@
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "generate-react-cli": "github:haydncomley/generate-react-cli#feature/allow-flat-in-json",
+    "generate-react-cli": "^8.4.0",
     "jsdom": "^20.0.3",
     "sass": "^1.57.1",
     "vite": "^4.0.3",
+    "vite-plugin-pwa": "^0.17.4",
     "vite-plugin-svgr": "^2.4.0",
     "vite-tsconfig-paths": "^4.0.3",
     "vitest": "^0.26.3"
